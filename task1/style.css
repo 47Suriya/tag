@@ -1,0 +1,52 @@
+body
+{
+    font-family: sans-serif;
+
+}
+
+.login
+{
+    width: 280px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: whitesmoke;
+
+}
+
+.text
+{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    
+}
+
+.password
+{
+    width: 100%;
+    overflow: hidden;
+    font-size: 22px;
+    
+}
+
+.button
+{
+    width: 100%;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.largehead
+{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+
+
+
+
+
+

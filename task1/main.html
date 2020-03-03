@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function verifyNull(){
+            if(!document.getElementById('username').value.trim().length){
+                alert('Please enter username');
+            }
+            else if(!document.getElementById('password').value.trim().length){
+                alert('Please enter password');
+            }
+            else{
+                window.location.href='successful.html';
+            }
+            }
+        
+    </script>
+
+</head>
+<body bgcolor="0066FF">
+    
+
+    <div class="login" >
+        <h2>AMRITA CS-STAR</h2>
+        <div class="text">
+            <input type="text" placeholder="Username" id="username"><br><br>
+        </div>
+        <div class="password">
+            <input type="password" placeholder="Password" id="password"><br><br>
+        </div>
+        <input class="button" type="button" value="Sign in" onclick="verifyNull()">
+
+        </div>
+    </div>
+
+
+
+ 
+
+</body>
+
+
+
+
+
+
+</html>
